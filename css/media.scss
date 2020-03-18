@@ -1,0 +1,73 @@
+@media screen and (max-width: 1200px) {
+  body section.main .container .center-wall .block {
+    padding: 10px;
+  }
+  body section.main.dost .container .center-wall .block .content .bg {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  body section.main .container .center-wall .block .infos {
+    display: block;
+  }
+  body section.main.users-list .container .users .search-panel form {
+    display: block;
+  }
+  body .search-f {
+    margin-bottom: 15px;
+    max-width: unset;
+  }
+  body section.main.add-avards .container .awards-block .tab-content .form-group .list-input {
+    display: block;
+  }
+  body section.main.mediatek .container .mediatek-block .top, body section.main.anounce .container .anounce-block .top {
+    display: block;
+  }
+  body section.main.mediatek .container .mediatek-block .top .title, body section.main.anounce .container .anounce-block .top .title, body section.main.group-list .container .group-list-block .top .title {
+    margin-bottom: 15px;
+  }
+  body section.main.users-list.group .container .users .users-profile .profile .down {
+    display: block;
+  }
+  body section.main.users-list.group .container .users .users-profile .profile .top .info {
+    display: block;
+  }
+  body section.main.users-list.group .container .users .users-profile .profile .top .info .stats {
+    margin-left: 0;
+  }
+  body section.main.users-list.group .container .users .users-profile .profile .down .btn-orange {
+    margin-left: 0;
+    width: fit-content;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  body section.main .container .right-menu, body header .search {
+    display: none;
+  }
+  body section.head .container .profile-info {
+    width: 50%;
+  }
+  body section.main.users-list.group .container .users .users-profile .profile {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  body section.head .container .profile-info, body section.main.add-avards .container .awards-block {
+    width: unset;
+    margin-left: 0;
+    padding-top: 0px;
+  }
+  body section.main.mediatek .container .mediatek-block, body section.main.anounce .container .anounce-block, body section.main.group-list .container .group-list-block {
+    margin-left: 0;
+    padding-top: 0px;
+  }
+  body header .logo, body section.head .container .avatar, .left-menu {
+    display: none;
+  }
+  body section.main .container .center-wall {
+    margin-left: 0;
+  }
+  body header .menu, body footer .container {
+    display: block;
+  }
+}
